@@ -2,6 +2,20 @@
 
 ![Image](Image.png)
 
+## What is Hermes?
+
+Hermes is a personal AI agent that turns natural-language requests into action.
+It calls a language model, runs the tools that model selects, observes the
+results, and repeats until the task is complete. The same agent is available
+through a CLI, terminal UI, messaging gateway, desktop app, browser dashboard,
+and editor-facing ACP server.
+
+Unlike a framework that only provides building blocks, Hermes is a complete,
+extensible product. It can remember and learn across sessions, create and
+refine skills for recurring work, connect to remote machines, and switch
+between model providers without changing the core workflow. This guide explains
+that workflow and shows where new capabilities belong.
+
 A newcomer's path through this codebase, and a contributor's path to a merged PR.
 
 Everything here was written against `main` @ `cf64ca20c` (2026-08-17) by reading
